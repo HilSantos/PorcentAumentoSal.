@@ -4,7 +4,7 @@ Se o novo salario for maior que R$ 5000, exiba uma mensagem de congratulações.
 Caso o salario esteja entre R$ 3000 e R$ 5000, use o switch case para determinar o imposto de renda: Se o salario for entre R$ 3000 e R$ 3999, aplique uma aliquota de 15%;
 Se o salario for entre R$ 4000 e R$ 4999, aplique uma aliquota de 20%; Exiba o valor do imposto e o salario liquido, após o imposto. Caso contrario, exiba uma mensagem dizendo que o 
 salario não será tributado.
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -38,7 +38,7 @@ namespace PorcentAumentoSal
             }
             else (salAumento >= 3000 && salAumento <= 3999)
             {
-                Console.WriteLine("");
+                Console.WriteLine("Aplique aliquota de 20%");
             }
 
                 Console.ReadKey();
